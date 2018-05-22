@@ -1,0 +1,89 @@
+body {
+
+font-family: 'Libre Franklin', sans-serif;
+}
+
+
+.callout-container {
+    
+    height: 100vh;
+    background: url("../assets/pics/tm_cl.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+    font-size: 600;    
+}
+
+.navbar-brand{
+    position: absolute;
+}
+
+.navbar-default .navbar-text {
+    color: #fafafa;
+}
+    
+.navbar-default .navbar-nav>li>a {
+    color: #fafafa;
+}
+ .navbar-default .navbar-brand {
+    color: #fafafa;
+}   
+    
+/*-------------------------------------------footer*/
+
+footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background-color: transparent;
+    color: #fafafa;
+    min-height: 100px;
+}
+
+
+.social-links{
+    padding-bottom: 15px;
+    padding-left: 20px;
+    
+}
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+.social-links li a i:hover{
+    background: #b56969;
+}
+
+#footer-details {
+ margin: 20px;   
+}
