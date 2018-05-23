@@ -18,6 +18,9 @@ font-family: 'Libre Franklin', sans-serif;
     position: relative;
 }
 
+
+/*----------navbars--------------*/
+
 .navbar {
     margin-bottom: 0;
     position: absolute;
@@ -30,9 +33,7 @@ font-family: 'Libre Franklin', sans-serif;
     font-size: 600;    
 }
 
-.navbar-brand{
-    position: absolute;
-}
+
 
 .navbar-default .navbar-text {
     color: #fafafa;
@@ -40,11 +41,34 @@ font-family: 'Libre Franklin', sans-serif;
     
 .navbar-default .navbar-nav>li>a {
     color: #fafafa;
+
 }
+.navbar-default .navbar-nav>li>a:hover {
+    color: #c51a1a;
+    background-color: transparent;
+}
+
  .navbar-default .navbar-brand {
     color: #fafafa;
-}   
-    
+    position: absolute;
+    padding: 60px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fafafa;
+}
+
+/*-------------------------------------------jumbotron*/
+
+
+container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 66px;
+    width: 66%;
+    background: transparent;
+    color: #fafafa;
+} 
+
 /*-------------------------------------------footer*/
 
 footer {
@@ -61,8 +85,8 @@ footer {
 
 
 .social-links{
-    padding-bottom: 15px;
-    padding-left: 20px;
+    padding-bottom: 10px;
+
     
 }
 .social-links li a i{
@@ -81,9 +105,9 @@ footer {
     -o-transition: all 0.25s ease-in-out;
 }
 .social-links li a i:hover{
-    background: #b56969;
+    background: #c51a1a;
 }
 
 #footer-details {
- margin: 20px;   
+ margin: 10px;   
 }
