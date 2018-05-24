@@ -4,10 +4,32 @@ font-family: 'Libre Franklin', sans-serif;
 }
 
 
+/*----------anchor links--------------*/
+a {
+    color: #fafafa;
+    text-decoration: none;
+    
+}
+
+
 .callout-container {
     
     height: 100vh;
     background: url("../assets/pics/tm_cl.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.callout-container2{
+    
+     height: 100vh;
+    background: url("../assets/pics/tm_bw.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,7 +50,8 @@ font-family: 'Libre Franklin', sans-serif;
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: transparent;
+    background-color: #c7ad88;
+    opacity: 1.0;
     border: 0;
     font-size: 600;    
 }
@@ -44,7 +67,7 @@ font-family: 'Libre Franklin', sans-serif;
 
 }
 .navbar-default .navbar-nav>li>a:hover {
-    color: #c51a1a;
+    color: #935347;
     background-color: transparent;
 }
 
@@ -57,6 +80,43 @@ font-family: 'Libre Franklin', sans-serif;
     background-color: #fafafa;
 }
 
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    color:#fafafa;
+    text-align: left;
+    list-style: none;
+    background-color: #c7ad88;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #fafafa;
+    white-space: nowrap;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #935347;
+    text-decoration: none;
+    background-color: #c7ad88;
+}
 /*-------------------------------------------jumbotron*/
 
 
@@ -78,7 +138,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: left;
-    background-color: transparent;
+    background-color:#c7ad88;
     color: #fafafa;
     min-height: 100px;
 }
@@ -92,20 +152,20 @@ footer {
 .social-links li a i{
     width: 32px;
     height: 32px;
-    padding: 12px;
+    padding: 11px;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
+    color: #64706c;
+    background: #fafafa;
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
 }
 .social-links li a i:hover{
-    background: #c51a1a;
+    background: #935347;
 }
 
 #footer-details {
