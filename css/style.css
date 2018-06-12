@@ -9,13 +9,14 @@ a {
     color: #fafafa;
     text-decoration: none;
     
+    
 }
 
 
 .callout-container {
     
     height: 100vh;
-    background: url("../assets/pics/tm_cl.jpg") no-repeat center center fixed; 
+    background: url("../assets/pics/tm_cl_1.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -29,7 +30,7 @@ a {
 .callout-container2{
     
      height: 100vh;
-    background: url("../assets/pics/tm_bw.jpg") no-repeat center center fixed; 
+    background: url("../assets/pics/tm_cl_1_sp.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -39,6 +40,13 @@ a {
     justify-content: center;
     position: relative;
 }
+
+.jumbotron {
+    margin-bottom: 180px;
+    background-color: #935347;
+}
+
+    
 
 
 /*----------navbars--------------*/
@@ -50,7 +58,7 @@ a {
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: #c7ad88;
+    background-color: transparent;
     opacity: 1.0;
     border: 0;
     font-size: 600;    
@@ -69,8 +77,8 @@ a {
 .navbar-default .navbar-nav>li>a:hover {
     color: #935347;
     background-color: transparent;
-}
 
+}
  .navbar-default .navbar-brand {
     color: #fafafa;
     position: absolute;
@@ -94,11 +102,11 @@ a {
     color:#fafafa;
     text-align: left;
     list-style: none;
-    background-color: #c7ad88;
+    background-color: transparent;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
+    border: 0px solid rgba(0,0,0,.15);
     border-radius: 4px;
     -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
     box-shadow: 0 6px 12px rgba(0,0,0,.175);
@@ -115,21 +123,13 @@ a {
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
     color: #935347;
     text-decoration: none;
-    background-color: #c7ad88;
+    background-color: transparent;
+
 }
-/*-------------------------------------------jumbotron*/
 
-
-container .jumbotron, .container-fluid .jumbotron {
-    padding-right: 15px;
-    padding-left: 15px;
-    border-radius: 66px;
-    width: 66%;
-    background: transparent;
-    color: #fafafa;
-} 
 
 /*-------------------------------------------footer*/
+
 
 footer {
 
@@ -138,7 +138,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: left;
-    background-color:#c7ad88;
+    background-color:transparent;
     color: #fafafa;
     min-height: 100px;
 }
@@ -167,6 +167,7 @@ footer {
 .social-links li a i:hover{
     background: #935347;
 }
+
 
 #footer-details {
  margin: 10px;   
