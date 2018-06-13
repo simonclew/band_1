@@ -5,6 +5,7 @@ font-family: 'Libre Franklin', sans-serif;
 
 
 
+/*-----------callout containers for background images-------------*/
 
 .callout-container {
     
@@ -34,11 +35,48 @@ font-family: 'Libre Franklin', sans-serif;
     position: relative;
 }
 
+.callout-container3{
+    
+     height: 100vh;
+    background: url("../assets/pics/tmjt.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.callout-container4{
+    
+     height: 100vh;
+    background: url("../assets/pics/workshop.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+/*----------jumbotron and block dividers-------------*/
+
 .jumbotron {
     margin-bottom: 180px;
     color: #ede9ce;
     background-color: rgba(147, 83, 71, 0.8);
+}
 
+
+.block-divider--small {
+    width: 140px;
+    height: 5px;
+    border: 0;
+    background-color: #c7ad88;
+    
 }
 
 /*-----------Grids and their colors-------------*/
@@ -47,7 +85,12 @@ font-family: 'Libre Franklin', sans-serif;
     color: #935347;
     text-align: center;
 }
+    .video-wrapper2 {
+    color: #935347;
+    text-align: left;
+    padding-left: 14px;
     
+    }
 /*-----------Tables and their colors-------------*/
 
 .table-responsive {
