@@ -2,6 +2,7 @@ body {
 
 font-family: 'Libre Franklin', sans-serif;
 .callout-container2
+    
      height: 100vh;
     background: url("../assets/pics/tm_cl_1_sp.jpg") no-repeat center fixed;
     background-size: cover;
@@ -180,7 +181,7 @@ font-family: 'Libre Franklin', sans-serif;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #ede9ce;
+    color: #c7ad88;
 }
     
 .navbar-default .navbar-toggle .icon-bar {
